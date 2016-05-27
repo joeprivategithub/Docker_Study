@@ -17,8 +17,6 @@ RUN	apt-get autoclean
 RUN	passwd -l news 
 RUN	passwd -l games
 RUN	sed -i '/ForwardAgent/cForwardAgent yes'  /etc/ssh/ssh_config
-RUN	rm /bin/sh
-RUN	ln -s /bin/bash  /bin/sh
 RUN	echo  "highlight Comment ctermfg=blue guifg=blue" > /root/.vimrc
 RUN	mkdir /root/.ssh
 ADD	authorized_keys /root/.ssh/
