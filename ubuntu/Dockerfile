@@ -1,11 +1,11 @@
 #
-# MAINTAINER        Michael Joe <michael_joe@126.com>
+# MAINTAINER        Michael Joe <li_baix@163.com>
 # DOCKER-VERSION    1.0.0
 #
 # Dockerizing Ubuntu 14.01: Dockerfile for building ubuntu base images
 #
 FROM	ubuntu:latest
-MAINTAINER	Michael Joe  <michael_joe@126.com>
+MAINTAINER	 li bai  <li_baix@163.com>
 
 ENV	TZ "Asia/Shanghai"
 
